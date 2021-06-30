@@ -95,5 +95,5 @@ We can control the robot arm by either joint_state_publisher or Moveit and kinem
   $ rosrun robot_arm_pkg joint_states_to_gazebo.py
   ```
 - Control the robot arm by Moveit and kinematics
- Then the following window will be opened:
+  - Then the following window will be opened:
  ![alt text](https://github.com/saraalrumih/Smart_methods-Robotic_Arm-ROS/blob/main/robot_arm_rviz_moveit.png)
