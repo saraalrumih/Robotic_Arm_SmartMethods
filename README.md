@@ -77,20 +77,23 @@ In this project we will be using [Smart Methods Robot Arm](https://github.com/sm
 ## 5. Control the robot arm 
 We can control the robot arm by either joint_state_publisher or Moveit and kinematics
 - Control the robot arm by joint_state_publisher 
-  - RIVz
+  - RViz
   ```
   $ roslaunch robot_arm_pkg check_motors.launch
   ```
-  ## output picture
+  Then the following window will be opened:
+  ![alt text](https://github.com/saraalrumih/Smart_methods-Robotic_Arm-ROS/blob/main/robot_arm_rviz.png)
   - Gazebo
   ```
   $ roslaunch robot_arm_pkg check_motors_gazebo.launch
   ```
-   ## output picture
-   ## make python file executable 
+  Then the following window will be opened:
+  ![alt text](https://github.com/saraalrumih/Smart_methods-Robotic_Arm-ROS/blob/main/robot_arm_gazebo.png)
+  ## to be completed
+  -  ## make python file executable 
   ```
   $ rosrun robot_arm_pkg joint_states_to_gazebo.py
   ```
 - Control the robot arm by Moveit and kinematics
-RIZ / GENZO
-##  MOVEIT
+ Then the following window will be opened:
+ ![alt text](https://github.com/saraalrumih/Smart_methods-Robotic_Arm-ROS/blob/main/robot_arm_rviz_moveit.png)
